@@ -1,17 +1,18 @@
-/* .wrapper {
+body {
   height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+}
+/* .wrapper {
+  border: 2px solid red;
+  height: 100vh;
+  margin: auto;
 } */
 .logo > img {
   height: 200px;
   width: 200px;
 }
-.quiz-container {
+/* .quiz-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
+} */
