@@ -13,10 +13,12 @@ body {
   /* border: 2px solid red; */
   background: linear-gradient(rgb(86 62 216), rgb(42 108 51));
 }
+
 .container-fluid-1 img {
   height: 300px;
   width: 300px;
 }
+
 .btn {
   width: 7em;
 }
