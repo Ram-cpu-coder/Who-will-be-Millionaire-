@@ -8,12 +8,12 @@ body {
   justify-content: center;
   align-items: center;
 } */
-.container {
+.container-fluid-1 {
   height: 100vh;
   /* border: 2px solid red; */
   background: linear-gradient(rgb(86 62 216), rgb(42 108 51));
 }
-.container img {
+.container-fluid-1 img {
   height: 200px;
   width: 200px;
 }
