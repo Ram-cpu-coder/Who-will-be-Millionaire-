@@ -1,18 +1,24 @@
 body {
   height: 100vh;
 }
-/* .wrapper {
-  border: 2px solid red;
-  height: 100vh;
-  margin: auto;
-} */
-.logo > img {
-  height: 200px;
-  width: 200px;
+#logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
 }
+/* #logo > img {
+  
+  border: 2px solid red;
+} */
 /* .quiz-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 } */
+.container {
+  height: 100vh;
+  border: 2px solid red;
+}
