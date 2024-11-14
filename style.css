@@ -1,17 +1,7 @@
 body {
   height: 100vh;
 }
-#logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100px;
-  width: 100px;
-}
-/* #logo > img {
-  
-  border: 2px solid red;
-} */
+
 /* .quiz-container {
   display: flex;
   flex-direction: column;
@@ -21,4 +11,8 @@ body {
 .container {
   height: 100vh;
   border: 2px solid red;
+}
+.container img {
+  height: 200px;
+  width: 200px;
 }
