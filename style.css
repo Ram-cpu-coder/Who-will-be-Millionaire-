@@ -1,5 +1,6 @@
 body {
   height: 100vh;
+
 }
 
 /* .quiz-container {
@@ -8,6 +9,11 @@ body {
   justify-content: center;
   align-items: center;
 } */
+.logo-nav {
+  height: 40px;
+  width: 40px;
+}
+
 .container-fluid-1 {
   height: 100vh;
   /* border: 2px solid red; */
@@ -21,4 +27,10 @@ body {
 
 .btn {
   width: 7em;
+}
+
+.back {
+  position: relative;
+  top: 0px;
+  left: 0px;
 }
