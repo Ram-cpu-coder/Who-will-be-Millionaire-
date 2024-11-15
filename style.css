@@ -20,6 +20,10 @@ body {
   background: linear-gradient(rgb(86 62 216), rgb(42 108 51));
 }
 
+.width {
+  width: 20em;
+}
+
 .container-fluid-1 img {
   height: 300px;
   width: 300px;
@@ -30,7 +34,11 @@ body {
 }
 
 .back {
-  position: relative;
-  top: 0px;
-  left: 0px;
+  position: fixed;
+  top: 70px;
+  left: 10px;
+}
+
+.button-back {
+  width: 50px;
 }

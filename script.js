@@ -10,12 +10,12 @@ console.log(main_page);
 const start = () => {
   console.log("clicked");
 
-  main_page.innerHTML = `  <div class="fixed-top mt-5 back">
-      <button type="button" class="btn btn-primary btn-sm" onclick = "back()">
+  main_page.innerHTML = `  <div class="fixed-top back">
+      <button type="button" class="btn btn-primary btn-sm button-back" onclick = "back()">
         <i class="fa-regular fa-circle-left" id="back"></i>
       </button>
     </div>
-    <div class="container container-fluid-1 d-flex flex-column justify-content-center align-items-center">
+    <div class="container-fluid container-fluid-1 d-flex flex-column justify-content-center align-items-center">
         <img src="./log.png" alt="img" />
         <h1 class="m-5 text-center">Who wants to be Millionaire?</h1>
         <button type="button" class="btn btn-primary p-3">START</button>
@@ -25,7 +25,10 @@ const start = () => {
 
 const back = () => {
   console.log("clicked");
-  main_page.innerHTML = `<div class="container-fluid container-fluid-1 d-flex flex-column justify-content-center align-items-center">
+  main_page.innerHTML = `
+  <div class="container-fluid container-fluid-1 d-flex flex-column justify-content-center align-items-center">
+  
+      <input type="text" class="width p-1 mb-5 rounded fs-1 text-center">
       <button type="button" class="btn btn-primary btn-lg" id="btn" onclick = "start()">
         ENTER
       </button>
