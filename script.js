@@ -4,7 +4,7 @@ const main_page = document.querySelector(".main-page");
 
 
 
-const start = () => {
+const enter = () => {
   console.log("clicked");
 
   main_page.innerHTML = `  
@@ -17,7 +17,7 @@ const start = () => {
     <div class="d-flex flex-column justify-content-center align-items-center" id = "main-page-bg" style = "height: 100vh">
         <img src="./log.png" alt="img" />
         <h1 class="m-5 text-center">Who wants to be Millionaire?</h1>
-        <button type="button" class="btn btn-primary p-3">START</button>
+        <button type="button" class="btn btn-primary p-3" onclick = "start()">START</button>
       </div>
       </div>`;
 
@@ -26,10 +26,12 @@ const start = () => {
 const back = () => {
   console.log("clicked");
   main_page.innerHTML = `
-  <div class="container-fluid container-fluid-1 d-flex flex-column justify-content-center align-items-center">
-  
-      <input type="text" class="width p-1 mb-5 border border-0 rounded-5 fs-1 text-center" placeholder = "Enter Your Nickname">
-      <button type="button" class="btn btn-primary btn-lg" id="btn" onclick = "start()">
+    <div class="container-fluid container-fluid-1 d-flex flex-column justify-content-center align-items-center">
+
+      <input type="text" class="width px-4 mb-5 border border-0 rounded-5 fs-2 text-center"
+        placeholder="ENTER YOUR NICKNAME">
+
+      <button type="button" class="btn btn-primary btn-lg" id="btn" onclick="enter()">
         ENTER
       </button>
 
