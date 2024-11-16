@@ -12,8 +12,8 @@ const enter = () => {
         <i class="fa-solid fa-house"></i>
       </button>
     </div>
-    <div class="container-fluid container-fluid-1 d-flex flex-column justify-content-center align-items-center mt-3">
-    <div class="d-flex flex-column justify-content-center align-items-center" id = "main-page-bg" style = "height: 100vh">
+    <div class="container-fluid container-fluid-1 d-flex flex-column justify-content-center align-items-center">
+    <div class="d-flex flex-column justify-content-center align-items-center" id = "main-page-bg" style = "height: 100vh; margin: 0">
         <img src="./log.png" alt="img" />
         <h1 class="m-5 text-center">Who wants to be Millionaire?</h1>
         <button type="button" class="btn btn-primary p-3" onclick = "start()">START</button>
@@ -25,7 +25,9 @@ const enter = () => {
 const back = () => {
   // console.log("clicked");
   main_page.innerHTML = `
-    <div class="container-fluid container-fluid-1 d-flex flex-column justify-content-center align-items-center mt-3">
+
+    <div class="container-fluid container-fluid-1 d-flex flex-column justify-content-center align-items-center"
+      style="height: 100vh;">
 
       <input type="text" class="width px-4 mb-5 border border-0 rounded-5 fs-2 text-center"
         placeholder="ENTER YOUR NICKNAME">
@@ -34,7 +36,8 @@ const back = () => {
         ENTER
       </button>
 
-    </div>`
+    
+  </div>`
 }
 
 const start = () => {
