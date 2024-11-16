@@ -49,7 +49,7 @@ const start = () => {
       </button>
     </div>
  <div class="container-fluid container-fluid-1 d-flex flex-column justify-content-center align-items-center mt-3">
-    <div class="d-flex flex-column justify-content-center align-items-center p-5" id="main-page-bg">
+    <div class="d-flex flex-column justify-content-center align-items-center" id="main-page-bg">
       <div class="qs-container" style="width: 100%;">
         <div class="col-8 d-flex flex-column justify-content-center align-items-center">
           <div class="row"><img src="./log.png"></div>

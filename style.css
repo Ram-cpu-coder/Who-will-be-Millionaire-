@@ -57,9 +57,10 @@ body {
   font-family: "Amaranth", sans-serif;
 }
 
-.container-fluid-1 img {
-  height: 300px;
-  width: 300px;
+
+#main-page-bg>img {
+  height: 20rem;
+  width: auto;
 }
 
 .btn {
