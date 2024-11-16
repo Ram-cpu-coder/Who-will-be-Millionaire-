@@ -40,7 +40,8 @@ const back = () => {
 const start = () => {
   console.log("clicked");
   main_page.innerHTML = `
-   <div class="qs-page">
+ <div class="container-fluid container-fluid-1 d-flex flex-column justify-content-center align-items-center">
+ <div class="d-flex flex-column justify-content-center align-items-center" id = "main-page-bg" style = "height: 100vh">
     <div class="row">
       <div class="col">
         <div class="row"><img src="./log.png"></div>
@@ -48,16 +49,17 @@ const start = () => {
           <p>what is your name?</p>
         </div>
         <div class="row">
-          <select class="form-select" size="3" aria-label="Size 3 select example">
+          <select class="form-select" size="4" aria-label="Size 3 select example">
             <option value="1">ram</option>
             <option value="2">shyam</option>
             <option value="3">hari</option>
-            <option value="3">ghanashyam</option>
+            <option value="4">ghanashyam</option>
           </select>
         </div>
       </div>
       <div class="col"></div>
     </div>
+  </div>
   </div>
   `;
 }
