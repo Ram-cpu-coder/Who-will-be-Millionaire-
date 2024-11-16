@@ -3,9 +3,8 @@ const container_1 = document.querySelector(".container-fluid-1");
 const main_page = document.querySelector(".main-page");
 
 
-
 const enter = () => {
-  console.log("clicked");
+  // console.log("clicked");
 
   main_page.innerHTML = `  
   <div class="fixed-top back">
@@ -24,7 +23,7 @@ const enter = () => {
 };
 
 const back = () => {
-  console.log("clicked");
+  // console.log("clicked");
   main_page.innerHTML = `
     <div class="container-fluid container-fluid-1 d-flex flex-column justify-content-center align-items-center">
 
@@ -36,4 +35,29 @@ const back = () => {
       </button>
 
     </div>`
+}
+
+const start = () => {
+  console.log("clicked");
+  main_page.innerHTML = `
+   <div class="qs-page">
+    <div class="row">
+      <div class="col">
+        <div class="row"><img src="./log.png"></div>
+        <div class="row">
+          <p>what is your name?</p>
+        </div>
+        <div class="row">
+          <select class="form-select" size="3" aria-label="Size 3 select example">
+            <option value="1">ram</option>
+            <option value="2">shyam</option>
+            <option value="3">hari</option>
+            <option value="3">ghanashyam</option>
+          </select>
+        </div>
+      </div>
+      <div class="col"></div>
+    </div>
+  </div>
+  `;
 }
