@@ -5,6 +5,16 @@ body {
 
 }
 
+.polygon {
+  padding: 25px;
+  color: white;
+  background: blue;
+  border: none;
+  clip-path: polygon(10% 0%, 90% 0%, 100% 50%, 90% 100%, 10% 100%, 0% 50%);
+  border: none;
+  font-family: "Amaranth", sans-serif;
+}
+
 /* .quiz-container {
   display: flex;
   flex-direction: column;
@@ -23,9 +33,11 @@ body {
 }
 
 #main-page-bg {
+  border: none;
+  border-radius: 20px;
   padding: 10px 40px;
   width: 80vw;
-  background: rgba(251, 250, 250, 0.3);
+  background: rgba(251, 250, 250, 0.1);
   backdrop-filter: blur(20px);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 }
@@ -44,6 +56,7 @@ body {
 }
 
 .btn {
+  padding: 10px;
   width: 7em;
   font-family: "Amaranth", sans-serif;
 }
