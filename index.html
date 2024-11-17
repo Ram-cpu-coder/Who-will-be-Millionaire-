@@ -74,7 +74,7 @@
   <!-- ================start-module===================================== -->
   <section id="start-module" class="hidden">
     <div class="fixed-top back">
-      <button type="button" class="btn btn-primary btn-sm button-back" onclick = "home()">
+      <button type="button" class="btn btn-primary btn-sm button-back" onclick="home()">
         <i class="fa-solid fa-house"></i>
       </button>
     </div>
@@ -90,9 +90,9 @@
   <!-- ================start -module===================================== -->
 
   <!-- ======================quiz-model=============================== -->
-  <section id=quiz-module  class="hidden">
+  <section id=quiz-module class="hidden">
     <div class="fixed-top back">
-      <button type="button" class="btn btn-primary btn-sm button-back" onclick = "home()">
+      <button type="button" class="btn btn-primary btn-sm button-back" onclick="home()">
         <i class="fa-solid fa-house"></i>
       </button>
     </div>
@@ -102,17 +102,19 @@
         <div class="qs-container" style="width: 100%;">
           <div class="col-8 d-flex flex-column justify-content-center align-items-center">
             <div class="row"><img src="./log.png" style="height: 400px; width : auto;"></div>
+
+
             <div class="row">
-              <p class="col-12 m-2 polygon">Which of the following rivers is the longest in Nepal?</p>
-            </div>
-            <div class="row d-flex flex-column">
-              <div class="d-grid gap-2 d-md-block col-12">
-                <button type="button" class="btn btn-primary active m-2 polygon" data-bs-toggle="button">Toggle</button>
-                <button type="button" class="btn btn-primary active m-2 polygon" data-bs-toggle="button">Toggle</button>
+              <div class="col-12 m-2 polygon">
+                <span id="questionSpan">
+                  Question1
+                </span>
               </div>
-              <div class="d-grid gap-2 d-md-block col-12">
-                <button type="button" class="btn btn-primary active m-2 polygon" data-bs-toggle="button">Toggle</button>
-                <button type="button" class="btn btn-primary active m-2 polygon" data-bs-toggle="button">Toggle</button>
+
+              <div class="row" id="answerSpan">
+                <span id="answer-0" class="col-6 btn btn-primary polygon" onclick = "submitAnswer(0)">
+                  answer1
+                </span>
               </div>
             </div>
           </div>
@@ -146,12 +148,8 @@
   <!-- ======================quiz-model=============================== -->
 
   <!-- !-- ================score-module===================================== -->
-  <section id="score-module" class="vh-80 hidden">
-    <div class="fixed-top back">
-      <button type="button" class="btn btn-primary btn-sm button-back" onclick="back()">
-        <i class="fa-solid fa-house"></i>
-      </button>
-    </div>
+  <section id="score-module" class="vh-100 hidden">
+
     <div class="container-fluid container-fluid-1 d-flex flex-column justify-content-center align-items-center mt-3">
       <div class="row d-flex flex-column justify-content-center align-items-center" id="main-page-bg">
         <div class="col-7 d-flex flex-column justify-content-center align-items-center">

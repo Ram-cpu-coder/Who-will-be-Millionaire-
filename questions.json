@@ -1,0 +1,32 @@
+[
+    {
+        "question": "Who was the first king of unified Nepal?",
+        "options": [
+            "Prithvi Narayan Shah",
+            "Tribhuwan Shah",
+            "Mahendra Shah",
+            "Rana Bahadur Shah"
+        ],
+        "answer": "Prithvi Narayan Shah"
+    },
+    {
+        "question": "Which dynasty ruled Nepal before the Shah dynasty?",
+        "options": [
+            "Malla Dynasty",
+            "Rana Dynasty",
+            "Thapa Dynasty",
+            "Khas Dynasty"
+        ],
+        "answer": "Malla Dynasty"
+    },
+    {
+        "question": "What is the national flower of Nepal?",
+        "options": [
+            "Lotus",
+            "Sunflower",
+            "Rhododendron",
+            "Rose"
+        ],
+        "answer": "Rhododendron"
+    }
+]
