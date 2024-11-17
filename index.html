@@ -58,14 +58,14 @@
   </nav>
   <!-- ================NAV BAR===================================== -->
   <!-- !-- ================enter-module===================================== -->
-  <section id="enter-module" class="hidden">
+  <section id="enter-module">
     <div class="container-fluid container-fluid-1 d-flex flex-column justify-content-center align-items-center"
       style="height: 100vh;">
 
       <input type="text" class="width px-4 mb-5 border border-0 rounded-5 fs-2 text-center"
         placeholder="ENTER YOUR NICKNAME">
 
-      <button type="button" class="btn btn-primary btn-lg" id="btn" onclick="enter()">
+      <button type="button" class="btn btn-primary btn-lg" id="btn" onclick="enterGame()">
         ENTER
       </button>
     </div>
@@ -83,14 +83,14 @@
         style="height: 100vh; margin: 0">
         <img src="./log.png" alt="img" />
         <h1 class="m-5 text-center">Who wants to be Millionaire?</h1>
-        <button type="button" class="btn btn-primary p-3" onclick="start()">START</button>
+        <button type="button" class="btn btn-primary p-3" onclick="startGame()">START</button>
       </div>
     </div>
   </section>
   <!-- ================start -module===================================== -->
 
   <!-- ======================quiz-model=============================== -->
-  <section id=quiz-module>
+  <section id=quiz-module  class="hidden">
     <div class="fixed-top back">
       <button type="button" class="btn btn-primary btn-sm button-back">
         <i class="fa-solid fa-house"></i>
@@ -146,7 +146,7 @@
   <!-- ======================quiz-model=============================== -->
 
   <!-- !-- ================score-module===================================== -->
-  <section id="score-module" class="vh-80">
+  <section id="score-module" class="vh-80 hidden">
     <div class="fixed-top back">
       <button type="button" class="btn btn-primary btn-sm button-back" onclick="back()">
         <i class="fa-solid fa-house"></i>
